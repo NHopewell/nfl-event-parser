@@ -1,0 +1,17 @@
+# virtual env
+env/
+
+# API KEY - this should be gitignored, but I will not
+# in this case so the user does not need to get their
+# own api key in order to run the code. If you want it
+# gitignored, move it out of config.json into a secrets
+# file, and ignore that file.
+
+
+# pycache
+__pycache__
+.pytest_cache
+nfl/__pycache__
+nfl/helpers/__pycache__
+tests/__pycache__
+tests/.pytest_cache

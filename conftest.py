@@ -1,0 +1,1 @@
+# adds rootdir to pytest search automatically once found
