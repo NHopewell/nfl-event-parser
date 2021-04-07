@@ -4,7 +4,8 @@ This repo is a simple example of a backend service which pulls from a remote API
 
 ## The Service
 
-A fake client wants us to develop a process which returns a list of NFL event and team ranking data in JSON format between a time period of 1 to 7 days. In order to do so, we need to pull from two API endpoints provided by https://delivery.chalk247.com/
+A fake client wants us to develop a process which returns a list of NFL event and team ranking data in JSON format between a time period of 1 to 7 days. In order to do so, we need to pull from two API endpoints provided by https://delivery.chalk247.com/ and combine 
+results.
 
 The response data from the API does not match the output format our client wants. We must transform and restructure the response data to suit our clients desired format, seen below.
 
@@ -77,7 +78,7 @@ Here is an example reponse for the week ```2020-01-12``` to ```2020-01-19``` (fo
 
 ## How to Run
 
-This is a command line application, it is expected that the user input a start date and a delta (in days, betweem 0 and 7 inclusive).
+This is a command line application, it is expected that the user input a start date and a delta (in days, between 0 and 7 inclusive).
 
 Clone the repository, activate a virtual env, and install the requirements.
 * on macOS and Linux:
@@ -103,7 +104,7 @@ Run with a start date and delta:
 python main.py 2020-01-12 7
 ```
 
-If you passed valid arguments at the commandline, you will see the following ascii art printed in the console:
+If you passed valid arguments at the command line, you will see the following ascii art printed in the console:
 ```
     _   __________               ______________  ___________ 
    / | / / ____/ /      __/|_   / ___/_  __/   |/_  __/ ___/
