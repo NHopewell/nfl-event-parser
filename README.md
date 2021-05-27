@@ -87,7 +87,7 @@ python -m venv env
 
 source env/bin/activate
 
-pip install -r myenv/requirements.txt
+pip install -r requirements.txt
 ```
 
 * on Windows:
@@ -96,7 +96,7 @@ py -m venv env
 
 .\env\Scripts\activate
 
-pip install -r myenv/requirements.txt
+pip install -r requirements.txt
 ```
 
 Run with a start date and delta:
