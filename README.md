@@ -1,6 +1,6 @@
 # NFL events parser
 
-This repo is a simple example of a backend service which pulls from a remote API that is frequently updated, transforms the reponse JSON data, and dumps the transformed results to a file. I am not an NFL fan, this is merely a small example which showcases that I can write, document, and test clean Pythonic code. 
+This repo is a simple example of a backend service which pulls from a remote API that is frequently updated, transforms the response JSON data, and dumps the transformed results to a file. I am not an NFL fan, this is merely a small example which showcases that I can write, document, and test clean Pythonic code. 
 
 ## The Service
 
