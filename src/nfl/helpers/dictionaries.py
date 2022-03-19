@@ -4,13 +4,14 @@ dictionaries.py
 Contains helper functions for loading the json config file
 and filtering dictionary keys.
 """
-
 import json
 from typing import Optional, Tuple, List
 
+import nfl.settings as settings
+
 
 def load_config_constants(
-    *keys, config_dir: Optional[str] = "config.json"
+    *keys, config_dir: Optional[str] = settings.CONFIG_PATH
 ) -> Tuple[str]:
     """Loads and returns values of a config json file.
 

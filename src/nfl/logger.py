@@ -1,10 +1,12 @@
 import datetime
 
+import nfl.settings as settings
+
 
 class Logger:
     def __init__(self, func):
         self.func = func
-        self.path = "nfl/logs/"
+        self.path = settings.LOG_PATH
 
     def __call__(self, *args, **kwargs):
 
